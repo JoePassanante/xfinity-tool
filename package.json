@@ -1,0 +1,27 @@
+{
+  "name": "xfinity-tool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src",
+    "build": "tsc",
+    "usage": "usage"
+  },
+  "bin": {
+    "xfin": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^9.5.0",
+    "conf": "^10.2.0",
+    "puppeteer": "^19.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.2",
+    "typescript": "^4.9.4"
+  },
+  "description": "",
+  "author": ""
+}
