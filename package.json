@@ -2,7 +2,7 @@
   "name": "xfinity-tool",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "GNUv3",
   "scripts": {
     "start": "ts-node ./src",
     "build": "tsc",
